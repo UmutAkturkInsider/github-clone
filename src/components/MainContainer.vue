@@ -41,7 +41,7 @@
       </div>
       <div class="hidden md:block md:flex md:justify-between">
         <div class="flex text-center border rounded-lg md:border-none">
-          <div class="flex items-center px-2 py-1 bg-gray-200 border-gray-400 cursor-pointer md:rounded-l-lg md:border-t md:border-l md:border-b hover:bg-gray-300">
+          <div class="flex items-center px-2 py-1 border-gray-400 cursor-pointer md:rounded-l-lg md:border-t md:border-l md:border-b hover:bg-gray-300">
             <svg class="hidden w-4 h-4 mr-1 text-gray-700 md:block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
               <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
               <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
@@ -53,7 +53,7 @@
           <div class="px-2 py-1 text-sm font-semibold border border-t border-gray-400 rounded-r-lg cursor-pointer hover:text-blue-600">423</div>
         </div>
         <div class="flex mx-4">
-          <div class="flex items-center px-2 py-1 bg-gray-200 border-t border-b border-l border-gray-400 rounded-l-lg cursor-pointer hover:bg-gray-300">
+          <div class="flex items-center px-2 py-1 border-t border-b border-l border-gray-400 rounded-l-lg cursor-pointer hover:bg-gray-300">
             <svg class="w-4 h-4 mr-1 text-gray-700" fill="currentColor" viewBox="0 0 20 20">
               <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
             </svg>
@@ -62,7 +62,7 @@
           <div class="px-2 py-1 text-sm font-semibold border border-t border-gray-400 rounded-r-lg cursor-pointer hover:text-blue-600">24.1k</div>
         </div>
         <div class="flex">
-          <div class="flex items-center px-2 py-1 bg-gray-200 border-t border-b border-l border-gray-400 rounded-l-lg cursor-pointer hover:bg-gray-200">
+          <div class="flex items-center px-2 py-1 border-t border-b border-l border-gray-400 rounded-l-lg cursor-pointer hover:bg-gray-200">
             <svg class="w-4 h-4 mr-1 text-gray-700" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
             </svg>
             <span class="self-center text-sm font-medium">Fork</span>
@@ -253,172 +253,9 @@
             </div>
           </div>
         </div>
-        <div class="ml-4 md:w-1/4">
-          <div class="hidden md:block">
-            <p class="text-base font-semibold text-black">About</p>
-            <div class="pb-2 mt-4 border-b">
-              <span class="text-sm lg:text-base">
-              A utility-first CSS framework for rapid UI development.
-              </span>
-              <div class="my-4">
-                <a class="flex items-center mb-2 text-base font-semibold text-blue-600 hover:underline" href="#">
-                  <svg class="w-4 h-4 mr-2 text-gray-700" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
-                  tailwindcss.com/</a>
-                <div class="flex flex-wrap gap-2 my-4">
-                  <a href="#" class="px-2 py-1 text-xs leading-none text-blue-600 bg-blue-100 rounded-full hover:bg-blue-200">tailwindcss</a>
-                  <a href="#" class="px-2 py-1 text-xs leading-none text-blue-600 bg-blue-100 rounded-full hover:bg-blue-200">css</a>
-                  <a href="#" class="px-2 py-1 text-xs leading-none text-blue-600 bg-blue-100 rounded-full hover:bg-blue-200">css-framework</a>
-                  <a href="#" class="px-2 py-1 text-xs leading-none text-blue-600 bg-blue-100 rounded-full hover:bg-blue-200">postcss</a>
-                  <a href="#" class="px-2 py-1 text-xs leading-none text-blue-600 bg-blue-100 rounded-full hover:bg-blue-200">functional-css</a>
-                  <a href="#" class="px-2 py-1 text-xs leading-none text-blue-600 bg-blue-100 rounded-full hover:bg-blue-200">utility-classes</a>
-                  <a href="#" class="px-2 py-1 text-xs leading-none text-blue-600 bg-blue-100 rounded-full hover:bg-blue-200">responsive</a>
-                </div>
-                <a href="" class="flex items-center mb-2 text-base font-medium text-gray-700 hover:underline">
-                  <svg height="16" class="w-4 h-4 mr-2 text-gray-700 fill-current" mr="2" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.869.23l-1.288.737A.25.25 0 013.984 3H1.75a.75.75 0 000 1.5h.428L.066 9.192a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.514 3.514 0 00.686.45A4.492 4.492 0 003 11c.88 0 1.556-.22 2.023-.454a3.515 3.515 0 00.686-.45l.045-.04.016-.015.006-.006.002-.002.001-.002L5.25 9.5l.53.53a.75.75 0 00.154-.838L3.822 4.5h.162c.305 0 .604-.08.869-.23l1.289-.737a.25.25 0 01.124-.033h.984V13h-2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-2.5V3.5h.984a.25.25 0 01.124.033l1.29.736c.264.152.563.231.868.231h.162l-2.112 4.692a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.517 3.517 0 00.686.45A4.492 4.492 0 0013 11c.88 0 1.556-.22 2.023-.454a3.512 3.512 0 00.686-.45l.045-.04.01-.01.006-.005.006-.006.002-.002.001-.002-.529-.531.53.53a.75.75 0 00.154-.838L13.823 4.5h.427a.75.75 0 000-1.5h-2.234a.25.25 0 01-.124-.033l-1.29-.736A1.75 1.75 0 009.735 2H8.75V.75zM1.695 9.227c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327l-1.305 2.9zm10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327l-1.305 2.9z"></path></svg>
-                  MIT License
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="px-6 py-6 -mx-10 border-b md:mx-0 md:px-0">
-            <p class="text-base font-semibold text-black">Latest release</p>
-            <div class="flex mt-4 text-sm font-semibold text-black">
-              <svg class="w-4 h-4 mt-1 mr-2 text-green-600" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path>
-              </svg>
-              <div>
-                v1.4.6 <br>
-                <span class="text-xs text-gray-600">on May 8</span>
-              </div>
-            </div>
-            <div class="mt-4 text-xs text-blue-600">+ 75 releases</div>
-          </div>
-          <div class="px-6 py-6 -mx-10 border-b md:mx-0 md:px-0">
-            <p class="text-base font-semibold text-black">User by
-              <span class="w-4 h-4 px-2 py-1 ml-1 text-xs bg-gray-300 rounded-full">5,000 +</span>
-            </p>
-            <div class="flex items-center mt-4 overflow-hidden text-blue-600 cursor-pointer hover:underline">
-              <img class="inline-block object-cover w-10 h-10 text-white border-2 border-gray-400 rounded-full shadow-sm" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-              <img class="inline-block object-cover w-10 h-10 -ml-2 text-white border-2 border-gray-400 rounded-full shadow-sm" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-              <img class="inline-block object-cover w-10 h-10 -ml-2 text-white border-2 border-gray-400 rounded-full shadow-sm" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="" />
-              <img class="inline-block object-cover w-10 h-10 -ml-2 text-white border-2 border-gray-400 rounded-full shadow-sm" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="" />
-              <img class="inline-block object-cover w-10 h-10 -ml-2 text-white border-2 border-gray-400 rounded-full shadow-sm" src="https://images.unsplash.com/photo-1553521041-d168abd31de3?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" alt="" />
-              <img class="inline-block object-cover w-10 h-10 -ml-2 text-white border-2 border-gray-400 rounded-full shadow-sm" src="https://images.unsplash.com/photo-1497551060073-4c5ab6435f12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="" />
-              <img class="inline-block object-cover w-10 h-10 -ml-2 text-white border-2 border-gray-400 rounded-full shadow-sm" src="https://images.unsplash.com/photo-1460904577954-8fadb262612c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1240&q=80" alt="" />
-              <p class="pl-2 text-sm font-medium text-blue-600">+ 49,635</p>
-            </div>
-          </div>
-          <div class="px-6 py-6 -mx-10 border-b md:mx-0 md:px-0">
-            <p class="text-base font-semibold text-black">Contributors
-              <span class="w-4 h-4 px-2 py-1 ml-1 text-xs bg-gray-300 rounded-full">109</span>
-            </p>
-            <div class="flex flex-wrap items-center mt-4 -mx-2 overflow-hidden">
-              <img class="object-cover w-10 h-10 mx-2 mt-2 text-white border-2 border-gray-400 rounded-full shadow-sm cursor-pointer md:mt-0" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-              <img class="object-cover w-10 h-10 mx-2 mt-2 text-white border-2 border-gray-400 rounded-full shadow-sm cursor-pointer md:mt-0" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-              <img class="object-cover w-10 h-10 mx-2 mt-2 text-white border-2 border-gray-400 rounded-full shadow-sm cursor-pointer md:mt-0" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="" />
-              <img class="object-cover w-10 h-10 mx-2 mt-2 text-white border-2 border-gray-400 rounded-full shadow-sm cursor-pointer md:mt-0" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="" />
-              <img class="object-cover w-10 h-10 mx-2 mt-2 text-white border-2 border-gray-400 rounded-full shadow-sm cursor-pointer md:mt-0" src="https://images.unsplash.com/photo-1553521041-d168abd31de3?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80" alt="" />
-              <img class="object-cover w-10 h-10 mx-2 mt-2 text-white border-2 border-gray-400 rounded-full shadow-sm cursor-pointer md:mt-0" src="https://images.unsplash.com/photo-1497551060073-4c5ab6435f12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="" />
-              <img class="object-cover w-10 h-10 mx-2 mt-2 text-white border-2 border-gray-400 rounded-full shadow-sm cursor-pointer md:mt-0" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="" />
-              <img class="object-cover w-10 h-10 mx-2 mt-2 text-white border-2 border-gray-400 rounded-full shadow-sm cursor-pointer md:mt-0" src="https://images.unsplash.com/photo-1460904577954-8fadb262612c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1240&q=80" alt="" />
-            </div>
-            <p class="pt-2 text-xs font-medium text-blue-700 hover:underline">+ 98 contributors</p>
-          </div>
-          <div class="px-6 py-6 -mx-10 border-b md:mx-0 md:px-0">
-            <p class="text-base font-semibold text-black">Languages</p>
-            <div class="w-full mt-4 bg-yellow-500 rounded-full shadow">
-              <div class="w-11/12 py-1 text-xs leading-none text-center text-white bg-purple-800 rounded-full"></div>
-            </div>
-            <div class="flex mt-4">
-              <div class="flex items-center text-sm">
-                <div class="w-2 h-2 mr-2 bg-purple-800 rounded-full"></div>
-                CSS 94.1 %
-              </div>
-              <div class="flex items-center ml-4 text-sm">
-                <div class="w-2 h-2 mr-2 bg-yellow-500 rounded-full"></div>
-                Javascript 5.9%
-              </div>
-            </div>
-          </div>
-        </div>
+        <AboutSection />
       </div>
-      <div class="mt-8">
-        <div class="w-full px-8 mx-auto hidden md:block md:container">
-            <div class="items-center justify-between py-8 border-t md:flex">
-              <div class="flex justify-start justify-between text-xs md:mt-0 md:w-2/5">
-                <div class="mr-4 text-gray-600">
-                  &copy; 2020 GitHub, Inc.
-                </div>
-                <div class="mr-4">
-                  <a href="#" class="text-blue-600 hover:underline focus:outline-none">
-                    Terms
-                  </a>
-                </div>
-                <div class="mr-4">
-                  <a href="#" class="text-blue-600 hover:underline focus:outline-none">
-                    Privacy
-                  </a>
-                </div>
-                <div class="mr-4">
-                  <a href="#" class="text-blue-600 hover:underline focus:outline-none">
-                    Security
-                  </a>
-                </div>
-                <div class="mr-4">
-                  <a href="#" class="text-blue-600 hover:underline focus:outline-none">
-                    Status
-                  </a>
-                </div>
-                <div class="mr-4">
-                  <a href="#" class="text-blue-600 hover:underline focus:outline-none">
-                    Help
-                  </a>
-                </div>
-              </div>
-              <div class="justify-center hidden w-1/5 text-center md:block">
-                <svg class="w-6 h-6 mx-auto text-gray-500 cursor-pointer fill-current hover:text-gray-600" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-              </div>
-              <div class="flex justify-end justify-between mt-2 text-xs text-right md:mt-0 md:w-2/5">
-                <div class="ml-4">
-                  <a href="#" class="text-blue-600 hover:underline focus:outline-none">
-                    Contact GitHub
-                  </a>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-blue-600 hover:underline focus:outline-none">
-                    Pricing
-                  </a>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-blue-600 hover:underline focus:outline-none">
-                    Api
-                  </a>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-blue-600 hover:underline focus:outline-none">
-                    Training
-                  </a>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-blue-600 hover:underline focus:outline-none">
-                    Blog
-                  </a>
-                </div>
-                <div class="ml-4">
-                  <a href="#" class="text-blue-600 hover:underline focus:outline-none">
-                    About
-                  </a>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
-      <div class="mt-12 border-t md:hidden border-gray-200 pt-8 mx-auto">
-        <p class="text-base leading-6 text-gray-600 xl:text-center">
-          © 2020 GitHub, Inc.,
-        </p>
-      </div>
+      <FooterSection />
     </div>
   </div>
 </template>
@@ -426,12 +263,16 @@
 <script>
 import GhFiles from './GhFiles.vue'
 import GhFolders from './GhFolders.vue'
+import AboutSection from './AboutSection.vue'
+import FooterSection from './FooterSection.vue'
 
 export default {
   name: 'MainContainer',
   components: {
     GhFiles,
-    GhFolders
+    GhFolders,
+    AboutSection,
+    FooterSection
   },
   props: {
     msg: String
