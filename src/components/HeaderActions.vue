@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden md:block md:flex md:justify-between">
+  <div class="hidden md:block md:flex md:justify-between gap-4">
     <div class="flex text-center border rounded-lg md:border-none" v-for="(action, index) in actions" :key="index">
       <div class="flex items-center px-2 py-1 border-gray-400 cursor-pointer md:rounded-l-lg md:border-t md:border-l md:border-b hover:bg-gray-300">
         <svg v-if="action.icon" class="w-4 h-4 mr-1 text-gray-700" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">

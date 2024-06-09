@@ -16,7 +16,7 @@ export default {
     return {
       files: [
         {
-          title: 'dependabot-previewcommitted',
+          title: 'dependabot',
           description: 'Drop fs-extra version to...',
           dateUpdated: '2 months ago'
         },
