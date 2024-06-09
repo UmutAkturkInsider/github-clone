@@ -1,57 +1,6 @@
 <template>
   <div class="bg-white">
-    <nav class="bg-gray-900">
-      <div class="px-4 mx-auto sm:px-6 lg:px-8">
-        <div class="flex items-center justify-between h-16">
-          <div class="flex items-center">
-            <div class="flex-shrink-0">
-              <div class="justify-center w-1/5 text-center">
-                <svg class="w-8 h-8 mx-auto text-gray-200 cursor-pointer fill-current hover:text-gray-300" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-              </div>
-            </div>
-            <div class="hidden md:block">
-              <div class="flex items-center ml-10">
-                <input type="text" class="hidden px-4 py-1 text-sm text-white placeholder-white bg-gray-700 rounded-lg focus:outline-none focus:shadow-none lg:block" placeholder="Search or jump to...">
-                <a href="#" class="px-3 py-2 ml-4 text-sm font-semibold text-white bg-gray-900 rounded-md focus:outline-none hover:bg-gray-700 focus:text-white focus:bg-gray-700">Dashboard
-                </a>
-                <a href="#" class="px-3 py-2 ml-4 text-sm font-semibold text-gray-300 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Pull requests
-                </a>
-                <a href="#" class="px-3 py-2 ml-4 text-sm font-semibold text-gray-300 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Issues
-                </a>
-                <a href="#" class="px-3 py-2 ml-4 text-sm font-semibold text-gray-300 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Marketplace
-                </a>
-                <a href="#" class="px-3 py-2 ml-4 text-sm font-semibold text-gray-300 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Explore</a>
-              </div>
-            </div>
-          </div>
-          <div class="hidden md:block">
-            <div class="flex items-center ml-4 md:ml-6">
-              <button class="p-1 text-gray-400 border-2 border-transparent rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700" aria-label="Notifications">
-                <svg class="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-                </svg>
-              </button>
-
-              <div class="relative ml-3">
-                <div>
-                  <button class="flex items-center max-w-xs text-sm text-white rounded-full focus:outline-none focus:shadow-solid" id="user-menu" aria-label="User menu" aria-haspopup="true">
-                    <img class="w-8 h-8 rounded-full" src="https://images.unsplash.com/photo-1592242481757-a0519c3d0d89?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="flex -mr-2 md:hidden">
-            <button class="inline-flex items-center justify-center p-2 text-gray-400 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white">
-              <svg class="block w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <TheNav />
     <div class="px-6 mt-4 overflow-x-hidden lg:px-10">
       <div class="flex flex-col md:flex-row md:justify-between">
         <div class="flex items-center">
@@ -155,13 +104,13 @@
           <div class="flex items-center px-4 pb-2 text-sm border-b-2 border-transparent cursor-pointer hover:border-gray-300">
             <svg class="hidden w-5 h-5 mr-1 text-gray-700 md:block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             Issues
-            <span class="flex items-center justify-center w-6 h-6 p-1 ml-1 text-xs bg-gray-200 rounded-full">129</span>
+            <span class="flex items-center justify-center w-6 h-6 p-1 ml-1 text-xs bg-gray-200 rounded-full">25</span>
           </div>
           <div class="flex items-center px-4 pb-2 text-sm border-b-2 border-transparent cursor-pointer hover:border-gray-300">
             <svg class="hidden w-5 h-5 mr-1 text-gray-600 fill-current md:block" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
             </svg>
             Pull requests
-            <span class="flex items-center justify-center w-6 h-6 p-1 ml-1 text-xs bg-gray-200 rounded-full">38</span>
+            <span class="flex items-center justify-center w-6 h-6 p-1 ml-1 text-xs bg-gray-200 rounded-full">15</span>
           </div>
           <div class="flex items-center hidden px-4 pb-2 text-sm border-b-2 border-transparent cursor-pointer hover:border-gray-300 md:flex md:block">
             <svg class="hidden w-5 h-5 mr-1 text-gray-700 md:block" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -221,100 +170,35 @@
               </button>
             </div>
             <div class="my-4">
-              <div class="flex justify-between px-4 py-3 bg-indigo-100 border border-indigo-200 rounded-t-lg">
-                <div class="flex items-center">
-                  <img class="w-6 h-6 mr-2 rounded-md" src="https://avatars3.githubusercontent.com/in/2141?s=60&v=4" alt="">
-                  <p class="text-sm font-semibold">dependabot-preview</p>
-                  <span class="ml-2 text-sm text-gray-600">committed 3 days ago</span>
+              <div class="flex justify-between px-4 py-3 bg-gray-100 border border-gray-200 rounded-t-lg">
+                <div class="flex items-center shrink">
+                  <img class="w-6 h-6 mr-2 rounded-md" src="https://avatars.githubusercontent.com/u/1834413?v=4&size=40" alt="">
+                  <p class="text-sm font-semibold">RobinMalfait</p>
+                  <span class="ml-2 text-sm text-gray-600 hover:text-blue-500 truncate">Prepare next alpha release:</span>
+                  <span class="ml-2 text-sm text-gray-600 hover:text-blue-500 truncate">4.0.0-alpha.16</span>
+                  <span>(<span class="text-blue-500 truncate">#13810</span>)</span>
+                  <button class="flex justify-center items-center p-1 rounded-lg hover:bg-gray-200 transition duration-200">
+                    <svg aria-hidden="true" focusable="false" role="img" class="octicon octicon-ellipsis" viewBox="0 0 16 16" width="16" height="16" fill="#636c76" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M0 5.75C0 4.784.784 4 1.75 4h12.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0 1 14.25 12H1.75A1.75 1.75 0 0 1 0 10.25ZM12 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM7 8a1 1 0 1 0 2 0 1 1 0 0 0-2 0ZM4 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z"></path></svg>
+                  </button>
+                  <button class="flex justify-center items-center mx-2" title="Success">
+                    <svg aria-hidden="true" focusable="false" role="img" class="octicon octicon-check" viewBox="0 0 16 16" width="16" height="16" fill="#1f883d" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path></svg>
+                  </button>
                 </div>
                 <div class="hidden md:block md:flex">
-                  <a href="" class="flex items-center mb-1 ml-4 text-sm font-medium text-gray-700 hover:underline hover:text-blue-500 hidden lg:block lg:flex">
-                    <svg class="w-4 h-4 mr-1 fill-current" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
-                    </svg>
-                    22 branches
+                  <a href="" class="flex items-center mb-1 ml-4 text-xs font-medium text-gray-700 hidden lg:block lg:flex">
+                    <span class="hover:underline hover:text-blue-500">c711903</span>
+                    <span class="mx-1">·</span>
+                    <span>2 days ago</span>
                   </a>
-                  <a href="" class="items-center mb-1 ml-4 text-sm font-medium text-gray-700 hover:underline hover:text-blue-500 hidden lg:block lg:flex">
-                    <svg class="w-4 h-4 mr-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                      <path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path>
-                    </svg>
-                    76 tags
+                  <a href="" class="items-center mb-1 ml-4 text-xs font-medium text-gray-700 hover:bg-gray-200 p-2 transition duration-200 rounded-lg hidden lg:block lg:flex">
+                    <svg aria-hidden="true" focusable="false" role="img" class="octicon octicon-history" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display:inline-block;user-select:none;vertical-align:text-bottom;overflow:visible"><path d="m.427 1.927 1.215 1.215a8.002 8.002 0 1 1-1.6 5.685.75.75 0 1 1 1.493-.154 6.5 6.5 0 1 0 1.18-4.458l1.358 1.358A.25.25 0 0 1 3.896 6H.25A.25.25 0 0 1 0 5.75V2.104a.25.25 0 0 1 .427-.177ZM7.75 4a.75.75 0 0 1 .75.75v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5A.75.75 0 0 1 7.75 4Z"></path></svg>
+                    <span class="mx-2">5,359 Commits</span>
                   </a>
                 </div>
               </div>
               <div class="hidden text-center border-b border-l border-r rounded-b-lg md:block">
-                <div class="flex px-4 py-2 text-sm hover:bg-gray-200">
-                  <div class="flex w-1/4">
-                    <svg class="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                    <p class="ml-2 cursor-pointer hover:underline hover:text-blue-500">.github</p>
-                  </div>
-                    <p class="w-1/2 text-left cursor-pointer hover:underline hover:text-blue-500">Drop fs-extra version to..</p>
-                    <p class="w-1/4 text-right">2 months ago</p>
-                </div>
-                <div class="flex px-4 py-2 text-sm hover:bg-gray-200">
-                  <div class="flex w-1/4">
-                    <svg class="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                    <p class="ml-2 cursor-pointer hover:underline hover:text-blue-500">dist</p>
-                  </div>
-                    <p class="w-1/2 text-left cursor-pointer hover:underline hover:text-blue-500">Add empty .npmignore so dist files are distributed with releases</p>
-                    <p class="w-1/4 ml-2 text-right">3 years ago</p>
-                </div>
-                <div class="flex px-4 py-2 text-sm hover:bg-gray-200">
-                  <div class="flex w-1/4">
-                    <svg class="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                    <p class="ml-2 cursor-pointer hover:underline hover:text-blue-500">scripts</p>
-                  </div>
-                    <p class="w-1/2 text-left cursor-pointer hover:underline hover:text-blue-500">Don't generate color opacity code in color plugins if not necessary</p>
-                    <p class="w-1/4 ml-2 text-right">3 months ago</p>
-                </div>
-                <div class="flex px-4 py-2 text-sm hover:bg-gray-200">
-                  <div class="flex w-1/4">
-                    <svg class="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"></path></svg>
-                    <p class="ml-2 cursor-pointer hover:underline hover:text-blue-500">src</p>
-                  </div>
-                    <p class="w-1/2 text-left cursor-pointer hover:underline hover:text-blue-500">Throw if contains a class</p>
-                    <p class="w-1/4 ml-2 text-right">last months</p>
-                </div>
-                <div class="flex px-4 py-2 text-sm hover:bg-gray-200">
-                  <div class="flex w-1/4">
-                    <svg class="w-6 h-6 text-blue-600" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                      <path d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-                    </svg>
-                    <p class="ml-2 cursor-pointer hover:underline hover:text-blue-500">LICENSE</p>
-                  </div>
-                    <p class="w-1/2 text-left cursor-pointer hover:underline hover:text-blue-500">Avoid updating license every year</p>
-                    <p class="w-1/4 ml-2 text-right">3 years ago</p>
-                </div>
-                <div class="flex px-4 py-2 text-sm hover:bg-gray-200">
-                  <div class="flex w-1/4">
-                    <svg class="w-6 h-6 text-blue-600" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                      <path d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-                    </svg>
-                    <p class="ml-2 cursor-pointer hover:underline hover:text-blue-500">README.md</p>
-                  </div>
-                    <p class="w-1/2 text-left cursor-pointer hover:underline hover:text-blue-500">Replace logo in README</p>
-                    <p class="w-1/4 ml-2 text-right">2 months ago</p>
-                </div>
-                <div class="flex px-4 py-2 text-sm hover:bg-gray-200">
-                  <div class="flex w-1/4">
-                    <svg class="w-6 h-6 text-blue-600" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                      <path d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-                    </svg>
-                    <p class="ml-2 cursor-pointer hover:underline hover:text-blue-500">package.json</p>
-                  </div>
-                    <p class="w-1/2 text-left cursor-pointer hover:underline hover:text-blue-500">1.4.6</p>
-                    <p class="w-1/4 ml-2 text-right">last month</p>
-                </div>
-                <div class="flex px-4 py-2 text-sm hover:bg-gray-200">
-                  <div class="flex w-1/4">
-                    <svg class="w-6 h-6 text-blue-600" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                      <path d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-                    </svg>
-                    <p class="ml-2 cursor-pointer hover:underline hover:text-blue-500">tailwind.css</p>
-                  </div>
-                    <p class="w-1/2 text-left cursor-pointer hover:underline hover:text-blue-500">Undo accidental changes to CDN build process</p>
-                    <p class="w-1/4 ml-2 text-right">6 months ago</p>
-                </div>
+                <GhFolders />
+                <GhFiles />
               </div>
               <div class="py-2 text-center border-b border-l border-r rounded-b-lg md:hidden">
                 <p class="text-blue-600 cursor-pointer hover:underline">View code</p>
@@ -322,7 +206,8 @@
             </div>
             <div class="py-6 border-b md:border md:rounded-lg md:px-8">
               <div class="font-semibold text-black">README.md</div>
-              <div class="my-6">
+              <div class="my-6 flex flex-col justify-center items-center">
+                <img alt="Tailwind CSS" class="w-auto lg:w-6/12 my-2 lg:my-4" src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-light.svg">
                 <img class="w-64" src="https://camo.githubusercontent.com/87d7034892fd41dc88f3606bb44b853f87cd2c51/68747470733a2f2f7265666163746f72696e6775692e6e7963332e63646e2e6469676974616c6f6365616e7370616365732e636f6d2f7461696c77696e642d6c6f676f2e737667" alt="">
                 <p>A utility-first CSS framework for rapidly building custom user interfaces. </p>
                 <div class="flex">
@@ -542,7 +427,16 @@
 </template>
 
 <script>
+import TheNav from './Nav.vue';
+import GhFiles from './GhFiles.vue'
+import GhFolders from './GhFolders.vue'
+
 export default {
+  components: {
+    TheNav,
+    GhFiles,
+    GhFolders
+  },
   name: 'HomeView',
   props: {
     msg: String
